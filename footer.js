@@ -182,17 +182,17 @@ function fix_sidemenu() {
             document.getElementById("belowtopnav").style.paddingTop = "44px";
             document.getElementById("topnav").style.position = "fixed";
             document.getElementById("topnav").style.top = "0";
-            document.getElementById("googleSearch").style.position = "fixed";
-            document.getElementById("googleSearch").style.top = "0";
-            document.getElementById("google_translate_element").style.position = "fixed";
-            document.getElementById("google_translate_element").style.top = "0";
+            // document.getElementById("googleSearch").style.position = "fixed";
+            // document.getElementById("googleSearch").style.top = "0";
+            // document.getElementById("google_translate_element").style.position = "fixed";
+            // document.getElementById("google_translate_element").style.top = "0";
         } else {
             document.getElementById("belowtopnav").style.paddingTop = "0";
             document.getElementById("topnav").style.position = "relative";
-            document.getElementById("googleSearch").style.position = "absolute";
-            document.getElementById("googleSearch").style.top = "";
-            document.getElementById("google_translate_element").style.position = "absolute";
-            document.getElementById("google_translate_element").style.top = "";
+            // document.getElementById("googleSearch").style.position = "absolute";
+            // document.getElementById("googleSearch").style.top = "";
+            // document.getElementById("google_translate_element").style.position = "absolute";
+            // document.getElementById("google_translate_element").style.top = "";
         }
         document.getElementById("leftmenuinner").style.paddingTop = "0"; //SCROLLNYTT
     } else {
@@ -208,18 +208,18 @@ function fix_sidemenu() {
             document.getElementById("belowtopnav").style.paddingTop = "44px";
             document.getElementById("topnav").style.position = "fixed";
             document.getElementById("topnav").style.top = "0";
-            document.getElementById("googleSearch").style.position = "fixed";
-            document.getElementById("googleSearch").style.top = "0";
-            document.getElementById("google_translate_element").style.position = "fixed";
-            document.getElementById("google_translate_element").style.top = "0";
+            // document.getElementById("googleSearch").style.position = "fixed";
+            // document.getElementById("googleSearch").style.top = "0";
+            // document.getElementById("google_translate_element").style.position = "fixed";
+            // document.getElementById("google_translate_element").style.top = "0";
         } else {
             if (w > 992) { document.getElementById("leftmenuinner").style.paddingTop = (112 - top) + "px";} //SCROLLNYTT
             document.getElementById("belowtopnav").style.paddingTop = "0";
             document.getElementById("topnav").style.position = "relative";
-            document.getElementById("googleSearch").style.position = "absolute";
-            document.getElementById("googleSearch").style.top = "";
-            document.getElementById("google_translate_element").style.position = "absolute";
-            document.getElementById("google_translate_element").style.top = "";
+            // document.getElementById("googleSearch").style.position = "absolute";
+            // document.getElementById("googleSearch").style.top = "";
+            // document.getElementById("google_translate_element").style.position = "absolute";
+            // document.getElementById("google_translate_element").style.top = "";
         }
     }
 }
